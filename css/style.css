@@ -342,6 +342,29 @@ address {
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
+.portfolio-image {
+    position: relative;
+    overflow: hidden;
+}
+.overlay {
+    position: absolute;
+    background-color: var(--IRIS, #4D5AE5);
+    color: var(--CLOUD, #F4F4FD);
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    padding: 40px 32px 162px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    transition: transform 250ms linear;
+   /* overflow: ;*/
+
+}   
+.portfolio-item:hover.overlay {
+
+} 
 
 /*Footer*/
 .footer {
