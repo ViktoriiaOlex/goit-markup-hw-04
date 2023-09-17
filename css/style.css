@@ -333,7 +333,7 @@ address {
      align-items: center;
     justify-content: center;
     fill: var(--cloud);
-    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-media-list-links-members:hover {
     background-color: #404bbf
@@ -410,8 +410,8 @@ address {
    /* overflow: ;*/
 
 }   
-.portfolio-image .overlay:hover {
-/*transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);*/
+ .overlay:hover {
+transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 transform: translateY(0%);
 } 
 
