@@ -322,6 +322,7 @@ address {
 .social-media-list-items-members {
     width: 40px;
     height: 40px;
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-media-list-links-members {
     border-radius: 50%;
@@ -409,7 +410,7 @@ address {
    /* overflow: ;*/
 
 }   
-.portfolio-item:hover {
+.portfolio-image .overlay:hover {
 /*transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);*/
 transform: translateY(0%);
 } 
